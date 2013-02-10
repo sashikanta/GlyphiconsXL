@@ -1,0 +1,266 @@
+/* Add additional stylesheets below
+-------------------------------------------------- */
+
+/* Body and structure
+-------------------------------------------------- */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,800);
+body {
+	font-family: 'Open Sans', Arial, serif;
+	background: url(../img/background_bg.jpg) repeat !important;
+	 background-position: 0 100px;
+}
+.section {
+    margin: 0;
+    padding: 30px 0;
+    position: relative;
+}
+.section.alt {
+    background-repeat: repeat;
+    box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 3px rgba(0, 0, 0, 0.25) inset;
+    text-shadow: 1px 1px 1px white;
+}
+#masthead .brand {
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 30px;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+#masthead .brand a {
+    color: #555555;
+}
+#masthead .brand i {
+    line-height: 20px;
+    transition: all 0.2s ease 0s;
+}
+#masthead .brand:hover i {
+    color: #41B7D8;
+    transform: rotate(8deg);
+}
+
+.btn-group > .btn-large {
+    font-size: 13.5px;
+}
+/* Code in headings */
+h3 code {
+	font-size: 14px;
+	font-weight: normal;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Open Sans', Arial, serif;
+	font-weight: 800;
+}
+#content-below {
+}
+#content-below {
+	font-family: "Open Sans", Arial, serif;
+	background: none repeat scroll 0 0 #E6E6E6;
+	border-top: 1px solid #CDCDCD;
+	padding: 10px 0;
+}
+/* Faded out hr */
+hr.soften {
+	height: 1px;
+	margin: 70px 0;
+	background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+	background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+	background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+	background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+	border: 0;
+}
+
+.theme-pattern-lightmesh .section.alt, .theme-pattern-lightmesh.alt {
+    background-image: url("../img/lghtmesh.png");
+    background-size: 256px 256px;
+}
+.section.alt {
+    background-repeat: repeat;
+    box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 3px rgba(0, 0, 0, 0.25) inset;
+    text-shadow: 1px 1px 1px white;
+}
+.section {
+    margin: 0;
+    padding: 30px 0;
+    position: relative;
+}
+
+/* Footer
+-------------------------------------------------- */
+
+#footer {
+    background: url("../img/briks.png") repeat scroll 0 0 #FAFAFA;
+     border-top: 1px solid #E7E7E7;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.25) inset;
+    color: #E9E9E9;
+    text-shadow: 1px 1px 1px #222222;
+}
+#footer small {
+    color: #E9E9E9;
+    font-style: italic;
+}
+
+#footer-menu {
+    background-color: #B6B6B6;
+    width: 100%;
+}
+#footer-menu .container {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+#footer-menu li {
+    float: left;
+    font-size: 10px;
+    list-style: none outside none;
+    margin-left: 10px;
+    padding: 15px 0;
+}
+#footer-menu a {
+    color: #FFFFFF;
+    font-size: 11px;
+    font-weight: 400;
+}
+#footer-menu a:hover {
+    color: #323232;
+}
+#footer-menu p {
+    color: #FFFFFF;
+    font-size: 11px;
+    letter-spacing: 0.04px;
+    padding-top: 14px;
+}
+footer .social {
+    margin-left: 0;
+}
+footer .social li {
+    background: url("../img/sprite-social.png") no-repeat scroll 0 0 transparent;
+    cursor: pointer;
+    display: inline;
+    float: left;
+    height: 42px;
+    margin-bottom: 6px;
+    margin-right: 6px;
+    width: 43px;
+}
+footer .social li:hover {
+}
+footer .social a {
+    display: block;
+    text-indent: -9999px;
+}
+footer .social .facebook {
+    background-position: -52px 0;
+}
+footer .social .twitter {
+    background-position: -105px 0;
+}
+footer .social .linkedin {
+    background-position: -52px -53px;
+}
+footer .social .youtube {
+    background-position: -105px -53px;
+}
+footer .social .flickr {
+    background-position: -105px -106px;
+}
+footer .social .google {
+    background-position: -105px -158px;
+}
+footer .social .ember {
+    background-position: -52px 0;
+}
+footer .social .skype {
+    background-position: -158px -53px;
+}
+footer .social .vimeo {
+    background-position: 0 -106px;
+}
+footer .social .digg {
+    background-position: -158px -106px;
+}
+footer .social .dribble {
+    background-position: -158px 0;
+}
+footer .social .delicious {
+    background-position: -105px -211px;
+}
+footer .social .tumblr {
+    background-position: -158px -211px;
+}
+footer .social .rss {
+    background-position: 0 0;
+}
+
+
+.services .well {
+    background-color: #FCFCFC;
+    border-radius: 0 0 0 0;
+    padding-bottom: 30px;
+    padding-top: 40px;
+    position: relative;
+    text-align: center;
+    transition: all 0.4s ease-in-out 0s;
+}
+.well-small {
+    border-radius: 3px 3px 3px 3px;
+    padding: 9px;
+}
+.well {
+    background-color: #F5F5F5;
+    border: 1px solid #E3E3E3;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+    margin-bottom: 20px;
+    min-height: 20px;
+    padding: 19px;
+}
+
+
+.services .well .service-icon {
+    background-color: #2997AB;
+    border-radius: 35px 35px 35px 35px;
+    color: #FFFFFF;
+    display: block;
+    font-size: 19px;
+    height: 25px;
+    left: 50%;
+    line-height: 25px;
+    margin-left: -22px;
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+    top: -20px;
+    width: 25px;
+}
+
+.services .well {
+    background-color: #FCFCFC;
+    border-radius: 0 0 0 0;
+    padding-bottom: 30px;
+    padding-top: 40px;
+    position: relative;
+    text-align: center;
+    transition: all 0.4s ease-in-out 0s;
+}
+.services .well:hover {
+    background-color: #FF6A00;
+    color: #FFFFFF;
+}
+.services .well h5 {
+    color: #0A0A0A;
+}
+.services .well .service-icon {
+    background-color: #2997AB;
+    border-radius: 35px 35px 35px 35px;
+    color: #FFFFFF;
+    display: block;
+    font-size: 19px;
+    height: 25px;
+    left: 50%;
+    line-height: 25px;
+    margin-left: -22px;
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+    top: -20px;
+    width: 25px;
+}
